@@ -1,0 +1,30 @@
+Id -> KO_001_004
+Název -> Přidání nulového množství produktu do košíku.
+
+Stručný popis -> Testovací případ testující funkcionalitu přidáni nulového množství produktu do nákupního košíku.
+
+Pre-conditions -> 
+	1. Windows 11 - [Version 10.0.22631.22631].
+	2. Musí být zapnutý WI-FI.
+	3. Myš, klávesnice.
+	4. Pokud web už byl otevřen - musíme ho zavřít.
+	5. Web otevřen pomoci odkazu "https://www.lokni-shop.cz/zachran-lahev/nerezova-lahev-proaqua-modra/".
+	6. Odmítněme cookies.
+	7. Tlačítko "Přidat do košíku" na stránce "Nerezová termoláhev Proaqua modrá 500 ml - LOKNI-SHOP".
+	8. Tlačítko "-" na stránce "Nerezová termoláhev Proaqua modrá 500 ml - LOKNI-SHOP".
+
+Testovací kroky ->
+	1. Stiskneme jedenkrát tlačítko "-".
+
+Vstupní data ->
+	1. URL produktu "https://www.lokni-shop.cz/zachran-lahev/nerezova-lahev-proaqua-modra/".
+
+Očekávaný výsledek ->
+	1. Musí se nám zobrazit označení "Minimální množství, které lze zakoupit, je 1 ks.".
+
+Post-conditions ->
+	1. Zavřeme web.
+	2. Odstraníme všechny produkty z koše.
+
+Verze TC -> 0.0.0.0.0.0.0.0.1e
+

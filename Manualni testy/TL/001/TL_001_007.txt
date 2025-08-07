@@ -1,0 +1,27 @@
+Id -> TL_001_007
+Název -> Otevřeni stránky "Vše o nákupu - LOKNI-SHOP" pomoci horního panelu.
+
+Stručný popis -> Testovací případ testující funkcionalitu tlačítka "VŠE O NÁKUPU" v horním panelu.
+
+Pre-conditions -> 
+	1. Windows 11 - [Version 10.0.22631.22631].
+	2. Musí být zapnutý WI-FI.
+	3. Myš, klávesnice.
+	4. Pokud web už byl otevřen - musíme ho zavřít.
+	5. Web otevřen pomoci odkazu "https://www.lokni-shop.cz".
+	6. Odmítněme cookies.
+	7. Tlačítko "VŠE O NÁKUPU" na horním panelu stránky "Jedna láhev stačí - LOKNI-SHOP".
+
+Testovací kroky ->
+	1. Klikneme na tlačítko "VŠE O NÁKUPU" na horním panelu.
+
+Vstupní data ->
+	1. URL domové stránky "https://www.lokni-shop.cz".
+
+Očekávaný výsledek ->
+	1. Po kliknuti na tlačítko "VŠE O NÁKUPU" musí se otevřít nova karta "Vše o nákupu - LOKNI-SHOP" (https://www.lokni-shop.cz/o-nakupu/).
+
+Post-conditions ->
+	1. Zavřeme web.
+
+Verze TC -> 0.0.0.0.0.0.0.0.3b

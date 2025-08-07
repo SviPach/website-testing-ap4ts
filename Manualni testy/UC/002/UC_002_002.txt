@@ -1,0 +1,37 @@
+Id -> UC_002_002
+Název -> Otevřeni stránky "Moje daňové doklady".
+
+Stručný popis -> Testovací případ testující funkcionalitu tlačítka "Moje daňové doklady" na levém panelu stránky "Klientské centrum - LOKNI-SHOP".
+
+Pre-conditions -> 
+	1. Windows 11 - [Version 10.0.22631.22631].
+	2. Musí být zapnutý WI-FI.
+	3. Myš, klávesnice.
+	4. Pokud web už byl otevřen - musíme ho zavřít.
+	5. Web otevřen pomoci odkazu "https://www.lokni-shop.cz".
+	6. Pokud jsme přihlášený - musíme se odhlásit.
+	7. Odmítněme cookies.
+	8. Rozbalovací tlačítko "PŘIHLÁŠENÍ" na stránce "Jedna láhev stačí - LOKNI-SHOP".
+
+Testovací kroky ->
+	1. Klikneme na rozbalovací tlačítko "PŘIHLÁŠENÍ" nahoře doprava.
+	2. 	TEST - Tlačítko "PŘIHLÁŠENÍ" se rozbalilo.
+	3. Zadáme "mimoli1034@noomlocs.com" v poli "E-MAIL" v rozbaleném okně tlačítka "PŘIHLÁŠENÍ".
+	4. Zadáme "123456789" v poli "HESLO" v rozbaleném okně tlačítka "PŘIHLÁŠENÍ".
+	5. Klikněme v rozbaleném okně tlačítka "PŘIHLÁŠENÍ" na tlačítko "Přihlásit se".
+	6. 	TEST - přihlášení bylo úspěšně.
+	7. Klikněme na tlačítko "MŮJ ÚČET" doprava nahoře.
+ 	8. V panelu doprava stiskněme tlačítko "Moje daňové doklady" v panelu "Klientské centrum".
+
+Vstupní data ->
+	1. URL domové stránky "https://www.lokni-shop.cz".
+	2. E-mailova adresa "mimoli1034@noomlocs.com".
+	3. Heslo "123456789".
+
+Očekávaný výsledek ->
+	1. Po kliknuti na tlačítko "Moje daňové doklady" musí nás prohlížeč přesměrovat na stránku "Daňové doklady - LOKNI-SHOP" (https://www.lokni-shop.cz/klient/klient-doklady/).
+
+Post-conditions ->
+	1. Zavřeme web.
+
+Verze TC -> 0.0.0.0.0.0.0.0.1c

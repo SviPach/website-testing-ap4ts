@@ -1,0 +1,28 @@
+Id -> TL_002_002
+Název -> Otevřeni stránky "Domácí filtrace - LOKNI-SHOP" pomoci panelu "Kategorie".
+
+Stručný popis -> Testovací případ testující funkcionalitu tlačítka "Domácí filtrace" v panelu "Kategorie".
+
+Pre-conditions -> 
+	1. Windows 11 - [Version 10.0.22631.22631].
+	2. Musí být zapnutý WI-FI.
+	3. Myš, klávesnice.
+	4. Pokud web už byl otevřen - musíme ho zavřít.
+	5. Web otevřen pomoci odkazu "https://www.lokni-shop.cz".
+	6. Odmítněme cookies.
+	7. Tlačítko "Domácí filtrace" na stránce "Jedna láhev stačí - LOKNI-SHOP" v panelu "Kategorie".
+
+Testovací kroky ->
+	1. Klikneme na tlačítko "Domácí filtrace" v panelu "Kategorie".
+
+Vstupní data ->
+	1. URL domové stránky "https://www.lokni-shop.cz".
+
+Očekávaný výsledek ->
+	1. Po kliknuti na tlačítko "Kuchyňské baterie" musí se otevřít stránka "Domácí filtrace - LOKNI-SHOP" (https://www.lokni-shop.cz/domaci-filtrace/).
+
+Post-conditions ->
+	1. Zavřeme web.
+
+Verze TC -> 0.0.0.0.0.0.0.0.1g
+

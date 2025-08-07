@@ -1,0 +1,32 @@
+Id -> VY_002_001
+Název -> Vyhledávání lahví "Proaquap".
+
+Stručný popis -> Testovací případ testující funkcionalitu vyhledávání produktů a jejich nenalezeni.
+
+Pre-conditions -> 
+	1. Windows 11 - [Version 10.0.22631.22631].
+	2. Musí být zapnutý WI-FI.
+	3. Myš, klávesnice.
+	4. Pokud web už byl otevřen - musíme ho zavřít.
+	5. Web otevřen pomoci odkazu "https://www.lokni-shop.cz".
+	6. Odmítněme cookies.
+	7. Textové pole pro vyhledávání produktů na webu nahoře.
+
+Testovací kroky ->
+	1. Klikneme na textové pole vyhledávání produktů nahoře.
+	3. 	TEST - režim zadávání textu povolen.
+	4. Zadáme text "Proaquap".
+	5. Stiskněme tlačítko "Enter" na klávesnici.
+
+Vstupní data ->
+	1. URL domové stránky "https://www.lokni-shop.cz".
+	2. Text "Proaquap".
+
+Očekávaný výsledek ->
+	1. Po kliknuti na tlačítko "Enter" na klávesnici musí nás prohlížeč přesměrovat na stránku "Vyhledávání - LOKNI-SHOP" (https://www.lokni-shop.cz/vyhledavani/?string=Proaquap).
+	2. Na stránce "Vyhledávání - LOKNI-SHOP" v sekci "Výsledky vyhledávání "Proaquap"" musí být zobrazen text: "Produkty nebyly nalezeny".
+
+Post-conditions ->
+	1. Zavřeme web.
+
+Verze TC -> 0.0.0.0.0.0.0.0.1f

@@ -1,0 +1,29 @@
+Id -> PP_001_005
+Název -> Prohlížení obrázků bez otevření.
+
+Stručný popis -> Testovací případ testující funkcionalitu prohlížení obrázků bez otevření.
+
+Pre-conditions -> 
+	1. Windows 11 - [Version 10.0.22631.22631].
+	2. Musí být zapnutý WI-FI.
+	3. Myš, klávesnice.
+	4. Pokud web už byl otevřen - musíme ho zavřít.
+	5. Web otevřen pomoci odkazu "https://www.lokni-shop.cz/domaci-filtrace/domaci-filtrace-lokni-home-ultimate/".
+	6. Odmítněme cookies.
+	7. Panel obrázků na stránce "Domácí filtrace Lokni ULTIMATE - LOKNI-SHOP".
+	8. Tlačítko ">" v panelu obrázků na stránce "Domácí filtrace Lokni ULTIMATE - LOKNI-SHOP".
+
+Testovací kroky ->
+	1. Najedeme myší na panel obrázků pod hlavním obrázkem.
+	2. Klikněme na tlačítko ">" v panelu obrázků.
+
+Vstupní data ->
+	1. URL stránky "https://www.lokni-shop.cz/domaci-filtrace/domaci-filtrace-lokni-home-ultimate/".
+
+Očekávaný výsledek ->
+	1. Po kliknutí na tlačítko ">" musí se posunout galerie obrázku doprava.
+
+Post-conditions ->
+	1. Zavřeme web.
+
+Verze TC -> 0.0.0.0.0.0.0.0.1d

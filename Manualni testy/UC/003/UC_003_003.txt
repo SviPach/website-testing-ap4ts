@@ -1,0 +1,47 @@
+Id -> UC_003_003
+Název -> Změna hesla.
+
+Stručný popis -> Testovací případ testující funkcionalitu změny hesla v nastavení účtu klienta.
+
+Pre-conditions -> 
+	1. Windows 11 - [Version 10.0.22631.22631].
+	2. Musí být zapnutý WI-FI.
+	3. Myš, klávesnice.
+	4. Pokud web už byl otevřen - musíme ho zavřít.
+	5. Web otevřen pomoci odkazu "https://www.lokni-shop.cz".
+	6. Pokud jsme přihlášený - musíme se odhlásit.
+	7. Odmítněme cookies.
+	8. Rozbalovací tlačítko "PŘIHLÁŠENÍ" na stránce "Jedna láhev stačí - LOKNI-SHOP".
+
+Testovací kroky ->
+	1. Klikneme na rozbalovací tlačítko "PŘIHLÁŠENÍ" nahoře doprava.
+	2. 	TEST - Tlačítko "PŘIHLÁŠENÍ" se rozbalilo.
+	3. Zadáme "mimoli1034@noomlocs.com" v poli "E-MAIL" v rozbaleném okně tlačítka "PŘIHLÁŠENÍ".
+	4. Zadáme "123456789" v poli "HESLO" v rozbaleném okně tlačítka "PŘIHLÁŠENÍ".
+	5. Klikněme v rozbaleném okně tlačítka "PŘIHLÁŠENÍ" na tlačítko "Přihlásit se".
+	6. 	TEST - přihlášení bylo úspěšně.
+	7. Klikněme na tlačítko "MŮJ ÚČET" doprava nahoře.
+	8. V panelu doprava stiskněme tlačítko "Moje osobní údaje".
+	9. Zadáme "999999999" v poli "NOVÉ HESLO".
+	10. Zadáme "999999999" v poli "NOVÉ HESLO (KONTROLA)".
+	11. Zadáme "123456789" v poli "SOUČASNÉ HESLO PRO POTVRZENÍ ZMĚN".
+	12. Klikněme na tlačítko "Uložit".
+
+Vstupní data ->
+	1. URL domové stránky "https://www.lokni-shop.cz".
+	2. E-mailova adresa "mimoli1034@noomlocs.com".
+	3. Heslo "123456789".
+	4. Text "999999999".
+
+Očekávaný výsledek ->
+	1. Po kliknuti na tlačítko "Uložit" musí se nám zobrazit označení "Záznam byl v pořádku uložen.".
+
+Post-conditions ->
+	1. Zadáme "123456789" v poli "NOVÉ HESLO".
+	2. Zadáme "123456789" v poli "NOVÉ HESLO (KONTROLA)".
+	3. Zadáme "999999999" v poli "SOUČASNÉ HESLO PRO POTVRZENÍ ZMĚN".
+	4. Klikněme na tlačítko "Uložit".
+	5. 	TEST - číslo telefonu je změněno. 
+	6. Zavřeme web.
+
+Verze TC -> 0.0.0.0.0.0.0.0.1d

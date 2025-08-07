@@ -1,0 +1,23 @@
+01 – Testování tlačítek domovské stránky všech panelů
+	001 – Testování horního panelu a možnosti vrácení na domovskou stránku pomocí kliknutí na ikonu webu.
+	002 – Testování panelu "Kategorie" na domovské stránce.
+
+02 – Testování tlačítek seřazení produktů
+	001 – Testování funkce seřazení produktů z kategorie "Domácí filtrace".
+
+03 – Testovací případy testující funkcionalitu účtu přihlášeného zákazníka
+	001 – Testování tlačítek přihlášení/odhlášení.
+	002 – Testování tlačítek z informací o přihlášeném klientovi.
+	003 – Testování změny osobních údajů přihlášeného zákazníka.
+
+04 – Testování funkce vyhledávání produktů
+	001 – Případy, kdy jsou hledané produkty nalezeny.
+	002 – Případy, kdy hledané produkty nejsou nalezeny.
+
+05 – Testování košíku
+	001 – Testování přidávání produktů do košíku.
+	002 – Testování funkcionality košíku, jako je změna množství nebo odstranění produktů.
+
+06 – Testování stránky produktů
+	001 – Testování funkcionality obrázků produktu a jejich galerie.
+	002 – Přechody na další informace o produktu pomocí tlačítek.

@@ -1,0 +1,30 @@
+Id -> SP_001_002
+Název -> Seřazení "Domácí filtrace - LOKNI-SHOP". Nejdražší.
+
+Stručný popis -> Testovací případ testující funkcionalitu tlačítka "NEJDRAŽŠÍ" na stránce "Domácí filtrace - LOKNI-SHOP".
+
+Pre-conditions -> 
+	1. Windows 11 - [Version 10.0.22631.22631].
+	2. Musí být zapnutý WI-FI.
+	3. Myš, klávesnice.
+	4. Pokud web už byl otevřen - musíme ho zavřít.
+	5. Web otevřen pomoci odkazu "https://www.lokni-shop.cz".
+	6. Odmítněme cookies.
+	7. Tlačítko "Domácí filtrace" na stránce "Jedna láhev stačí - LOKNI-SHOP" v panelu "Kategorie".
+
+Testovací kroky ->
+	1. Stiskneme tlačítko "Domácí filtrace" v panelu "Kategorie".
+	2. 	TEST - stránka "Domácí filtrace - LOKNI-SHOP" byla otevřena.
+	3. V řadku s tlačitky seřazení stiskneme tlačítko "NEJDRAŽŠÍ".
+
+Vstupní data ->
+	1. URL domové stránky "https://www.lokni-shop.cz".
+
+Očekávaný výsledek ->
+	1. Po kliknuti na tlačítko "Nejlevnější" produkty se zobrazují seřazené podle nazvu od nejvyšší po nejnižší cenu.
+
+Post-conditions ->
+	1. Zavřeme web.
+
+Verze TC -> 0.0.0.0.0.0.0.0.4e
+

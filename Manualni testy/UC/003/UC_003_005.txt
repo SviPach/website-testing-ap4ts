@@ -1,0 +1,55 @@
+Id -> UC_003_005
+Název -> Přidání nové doručovací adresy.
+
+Stručný popis -> Testovací případ testující funkcionalitu přidání nové doručovací adresy v nastavení účtu klienta.
+
+Pre-conditions -> 
+	1. Windows 11 - [Version 10.0.22631.22631].
+	2. Musí být zapnutý WI-FI.
+	3. Myš, klávesnice.
+	4. Pokud web už byl otevřen - musíme ho zavřít.
+	5. Web otevřen pomoci odkazu "https://www.lokni-shop.cz".
+	6. Pokud jsme přihlášený - musíme se odhlásit.
+	7. Nemusí být vytvořena žádná jiná doručovací adresa.
+	8. Odmítněme cookies.
+	9. Rozbalovací tlačítko "PŘIHLÁŠENÍ" na stránce "Jedna láhev stačí - LOKNI-SHOP".
+
+Testovací kroky ->
+	1. Klikneme na rozbalovací tlačítko "PŘIHLÁŠENÍ" nahoře doprava.
+	2. 	TEST - Tlačítko "PŘIHLÁŠENÍ" se rozbalilo.
+	3. Zadáme "mimoli1034@noomlocs.com" v poli "E-MAIL" v rozbaleném okně tlačítka "PŘIHLÁŠENÍ".
+	4. Zadáme "123456789" v poli "HESLO" v rozbaleném okně tlačítka "PŘIHLÁŠENÍ".
+	5. Klikněme v rozbaleném okně tlačítka "PŘIHLÁŠENÍ" na tlačítko "Přihlásit se".
+	6 	TEST - přihlášení bylo úspěšně.
+	7. Klikněme na tlačítko "MŮJ ÚČET" doprava nahoře.
+	8. V panelu doprava stiskněme tlačítko "Moje osobní údaje".
+	9. Pojďme dolu a v sekci "Doručovací adresy" klikněme na tlačítko "Přidat novou adresu".
+	10. Zadáme "Marcel Orel" v poli "JMÉNO A PŘIJMENÍ".
+	11. Zadáme "Zlínská 1050" v poli "ULICE".
+	12. Zadáme "Zlín" v poli "MĚSTO".
+	13. Zadáme "76314" v poli "PSČ".
+	14. V poli "ZEMĚ" zvolíme "Slovensko".
+	15. Klikněme na tlačítko "Odeslat".
+
+Vstupní data ->
+	1. URL domové stránky "https://www.lokni-shop.cz".
+	2. E-mailova adresa "mimoli1034@noomlocs.com".
+	3. Heslo "123456789".
+	4. Text "Marcel Orel".
+	5. Text "Zlínská 1050".
+	6. Text "Zlín".
+	7. Text "76314".
+
+Očekávaný výsledek ->
+	1. Po kliknuti na tlačítko "Odeslat" musí se nám zobrazit označení "Záznam byl v pořádku uložen.".
+	2. Nova doručovací adresa byla přidána na druhou pozice.
+	3. "Jméno a příjmení" nove adresy je "Marcel Orel".
+	4. "Ulice" nove adresy je "Zlínská 1050".
+	5. "Město" nove adresy je "Zlín".
+	6. "PSČ" nove adresy je "76314".
+	7. "Země" nove adresy je "Slovensko".
+
+Post-conditions ->
+	1. Zavřeme web.
+
+Verze TC -> 0.0.0.0.0.0.0.0.1i

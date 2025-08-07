@@ -1,0 +1,27 @@
+Id -> PP_002_001
+Název -> Přechod do popisu produktu.
+
+Stručný popis -> Testovací případ testující funkcionalitu rychlého přechodu do popisu produktu.
+
+Pre-conditions -> 
+	1. Windows 11 - [Version 10.0.22631.22631].
+	2. Musí být zapnutý WI-FI.
+	3. Myš, klávesnice.
+	4. Pokud web už byl otevřen - musíme ho zavřít.
+	5. Web otevřen pomoci odkazu "https://www.lokni-shop.cz/domaci-filtrace/domaci-filtrace-lokni-home-ultimate/".
+	6. Odmítněme cookies.
+	7. Tlačítko "DETAILNÍ INFORMACE" na stránce "Domácí filtrace Lokni ULTIMATE - LOKNI-SHOP".
+
+Testovací kroky ->
+	1. Klikněme na tlačítko "DETAILNÍ INFORMACE" pod názvem produktu.
+
+Vstupní data ->
+	1. URL stránky "https://www.lokni-shop.cz/domaci-filtrace/domaci-filtrace-lokni-home-ultimate/".
+
+Očekávaný výsledek ->
+	1. Po kliknutí na tlačítko "DETAILNÍ INFORMACE" musí se nás web posunout dolu do panelu "Popis produktu".
+
+Post-conditions ->
+	1. Zavřeme web.
+
+Verze TC -> 0.0.0.0.0.0.0.0.1c

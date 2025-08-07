@@ -1,0 +1,27 @@
+Id -> TL_001_008
+Název -> Otevřeni stránky "Kontakty - LOKNI-SHOP" pomoci horního panelu.
+
+Stručný popis -> Testovací případ testující funkcionalitu tlačítka "KONTAKTY" v horním panelu.
+
+Pre-conditions -> 
+	1. Windows 11 - [Version 10.0.22631.22631].
+	2. Musí být zapnutý WI-FI.
+	3. Myš, klávesnice.
+	4. Pokud web už byl otevřen - musíme ho zavřít.
+	5. Web otevřen pomoci odkazu "https://www.lokni-shop.cz".
+	6. Odmítněme cookies.
+	7. Tlačítko "KONTAKTY" na horním panelu stránky "Jedna láhev stačí - LOKNI-SHOP".
+
+Testovací kroky ->
+	1. Klikneme na tlačítko "KONTAKTY" na horním panelu.
+
+Vstupní data ->
+	1. URL domové stránky "https://www.lokni-shop.cz".
+
+Očekávaný výsledek ->
+	1. Po kliknuti na tlačítko "KONTAKTY" musí se otevřít nova karta "Kontakty - LOKNI-SHOP" (https://www.lokni-shop.cz/kontakty/).
+
+Post-conditions ->
+	1. Zavřeme web.
+
+Verze TC -> 0.0.0.0.0.0.0.0.3j
