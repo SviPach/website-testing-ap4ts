@@ -14,11 +14,11 @@ Pre-conditions ->
 
 Test steps ->
 	1. Click the button "Přidat do košíku".
-	2. In opened webpage click button "Zpět do obchodu".
+	2. On the opened webpage click button "Zpět do obchodu".
 	3. Open a new webpage using URL "https://www.lokni-shop.cz/prislusenstvi-k-lahvim-2/obal-na-lahev-seahorse/".
 	4. 	TEST - webpage "Obal na láhev Seahorse" is opened.
 	5. Click the button "Přidat do košíku".
-	6. In opened webpage click button "Přejít do košíku".
+	6. On the opened webpage click button "Přejít do košíku".
 
 Input data ->
 	1. Product's URL "https://www.lokni-shop.cz/zachran-lahev/nerezova-lahev-proaqua-modra/".

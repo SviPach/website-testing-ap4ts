@@ -14,7 +14,7 @@ Pre-conditions ->
 
 Test steps ->
 	1. Click the button "Přidat do košíku".
-	2. In opened webpage click button "Přejít do košíku".
+	2. On the opened webpage click button "Přejít do košíku".
 
 Input data ->
 	1. Product's URL "https://www.lokni-shop.cz/zachran-lahev/nerezova-lahev-proaqua-modra/".

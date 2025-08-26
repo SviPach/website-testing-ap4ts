@@ -1,33 +1,33 @@
 Id -> KO_002_004
-Název -> Změna počtu produktů v košíku - rychlý přistup.
+Name -> Changing the quantity of the item - fast access.
 
-Stručný popis -> Testovací případ testující funkcionalitu změny počtu produktu v nákupním košíku pomoci rýchleho přistupu.
+Brief description -> This test verifies the functionality of changing the item quantity in the shopping cart using the fast access window.
 
 Pre-conditions -> 
 	1. Windows 11 - [Version 10.0.22631.22631].
-	2. Musí být zapnutý WI-FI.
-	3. Myš, klávesnice.
-	4. Pokud web už byl otevřen - musíme ho zavřít.
-	5. Web otevřen pomoci odkazu "https://www.lokni-shop.cz/zachran-lahev/nerezova-lahev-proaqua-modra/".
-	6. Odmítněme cookies.
-	7. Tlačítko "Přidat do košíku" na stránce "Nerezová termoláhev Proaqua modrá 500 ml - LOKNI-SHOP".
+	2. WI-FI has to be turned on.
+	3. Mouse, keyboard.
+	4. If the website is opened already - have to close it.
+	5. Website is opened using URL "https://www.lokni-shop.cz/zachran-lahev/nerezova-lahev-proaqua-modra/".
+	6. Reject cookie-files.
+	7. Button "Přidat do košíku" on webpage "Nerezová termoláhev Proaqua modrá 500 ml - LOKNI-SHOP".
 
-Testovací kroky ->
-	1. Stiskneme tlačítko "Přidat do košíku".
-	2. Stiskneme v otevřeném okně tlačítko "Přejít do košíku".
-	3. Najedeme myší na ikonu košíku v dolním právem rohu.
-	4. V rozevíracím okně klikněme jedenkrát na ikonu "+" napravo od produktu "Nerezová termoláhev Proaqua modrá 500 ml".
+Test steps ->
+	1. Click button "Přidat do košíku".
+	2. On the opened webpage click button "Přejít do košíku".
+	3. Point the mouse cursor on the shopping cart icon in the right top corner.
+	4. In opened webpage click button "+" once to the right of the product "Nerezová termoláhev Proaqua modrá 500 ml".
 
-Vstupní data ->
-	1. URL produktu "https://www.lokni-shop.cz/zachran-lahev/nerezova-lahev-proaqua-modra/".
+Input data ->
+	1. Product's URL "https://www.lokni-shop.cz/zachran-lahev/nerezova-lahev-proaqua-modra/".
 
-Očekávaný výsledek ->
-	1. Zpbrázeno oznáčení "Množství bylo úspěšně změněno.".
-	2. V košíku jsou přidány 2 produkty: "Nerezová termoláhev Proaqua modrá 500 ml" (2ks).
+Expected result ->
+	1. The message "Množství bylo úspěšně změněno." must be displayed.
+	2. 2 items are added to the shopping cart: "Nerezová termoláhev Proaqua modrá 500 ml" (2pc).
 
 Post-conditions ->
-	1. Zavřeme web.
-	2. Odstraníme všechny produkty z koše.
+	1. Remove all the items from the shopping cart.
+	2. Close the website.
 
-Verze TC -> 0.0.0.0.0.0.0.0.1d
+TC version -> 0.0.0.0.0.0.0.0.1d
 
