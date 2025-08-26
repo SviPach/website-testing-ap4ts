@@ -1,33 +1,33 @@
 Id -> VY_001_001
-Název -> Vyhledávání lahví "Proaqua".
+Name -> Searching the "Proaqua" bottles.
 
-Stručný popis -> Testovací případ testující funkcionalitu vyhledávání produktů a jejich nalezeni.
+Brief description -> This test verifies that the product search bar correctly handles cases when products are found.
 
 Pre-conditions -> 
 	1. Windows 11 - [Version 10.0.22631.22631].
-	2. Musí být zapnutý WI-FI.
-	3. Myš, klávesnice.
-	4. Pokud web už byl otevřen - musíme ho zavřít.
-	5. Web otevřen pomoci odkazu "https://www.lokni-shop.cz".
-	6. Odmítněme cookies.
-	7. Textové pole pro vyhledávání produktů na webu nahoře.
+	2. WI-FI has to be turned on.
+	3. Mouse, keyboard.
+	4. If the website is opened already - have to close it.
+	5. Website is opened using URL "https://www.lokni-shop.cz".
+	6. Reject cookie-files.
+	7. Search bar in the top of the webpage "Jedna láhev stačí - LOKNI-SHOP".
 
-Testovací kroky ->
-	1. Klikneme na textové pole vyhledávání produktů nahoře.
-	2. 	TEST - režim zadávání textu povolen.
-	3. Zadáme text "Proaqua".
-	4. Stiskněme tlačítko "Enter" na klávesnici.
+Test steps ->
+	1. Click on the input field of the search bar in the top of the webpage.
+	2. 	TEST - text input mode is active.
+	3. Enter the text "Proaqua".
+	4. Click the "Enter" button on the keyboard.
 
-Vstupní data ->
-	1. URL domové stránky "https://www.lokni-shop.cz".
+Input data ->
+	1. Homepage's URL "https://www.lokni-shop.cz".
 	2. Text "Proaqua".
 
-Očekávaný výsledek ->
-	1. Po kliknuti na tlačítko "Enter" na klávesnici musí nás prohlížeč přesměrovat na stránku "Vyhledávání - LOKNI-SHOP" (https://www.lokni-shop.cz/vyhledavani/?string=Proaqua).
-	2. Na stránce "Vyhledávání - LOKNI-SHOP" v sekci "Výsledky vyhledávání "Proaqua"" musí být zobrazen produkt: "Nerezová termoláhev Proaqua stříbrná 500 ml".
-	3. Na stránce "Vyhledávání - LOKNI-SHOP" v sekci "Výsledky vyhledávání "Proaqua"" musí být zobrazen produkt: "Nerezová termoláhev Proaqua modrá 500 ml".
+Expected result ->
+	1. Website should redirect us to the webpage "Vyhledávání - LOKNI-SHOP" (https://www.lokni-shop.cz/vyhledavani/?string=Proaqua).
+	2. On the webpage "Vyhledávání - LOKNI-SHOP" in the "Výsledky vyhledávání "Proaqua"" section the product should be showed: "Nerezová termoláhev Proaqua stříbrná 500 ml".
+	3. On the webpage "Vyhledávání - LOKNI-SHOP" in the "Výsledky vyhledávání "Proaqua"" section the product should be showed: "Nerezová termoláhev Proaqua modrá 500 ml".
 
 Post-conditions ->
-	1. Zavřeme web.
+	1. Close the website.
 
-Verze TC -> 0.0.0.0.0.0.0.0.1g
+TC version -> 0.0.0.0.0.0.0.0.1g

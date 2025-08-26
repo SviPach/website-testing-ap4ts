@@ -1,32 +1,32 @@
 Id -> VY_002_001
-Název -> Vyhledávání lahví "Proaquap".
+Name -> Searching the "Proaquap" bottles.
 
-Stručný popis -> Testovací případ testující funkcionalitu vyhledávání produktů a jejich nenalezeni.
+Brief description -> This test verifies that the product search bar correctly handles cases when no products are found.
 
 Pre-conditions -> 
 	1. Windows 11 - [Version 10.0.22631.22631].
-	2. Musí být zapnutý WI-FI.
-	3. Myš, klávesnice.
-	4. Pokud web už byl otevřen - musíme ho zavřít.
-	5. Web otevřen pomoci odkazu "https://www.lokni-shop.cz".
-	6. Odmítněme cookies.
-	7. Textové pole pro vyhledávání produktů na webu nahoře.
+	2. WI-FI has to be turned on.
+	3. Mouse, keyboard.
+	4. If the website is opened already - have to close it.
+	5. Website is opened using URL "https://www.lokni-shop.cz".
+	6. Reject cookie-files.
+	7. Search bar in the top of the webpage "Jedna láhev stačí - LOKNI-SHOP".
 
-Testovací kroky ->
-	1. Klikneme na textové pole vyhledávání produktů nahoře.
-	3. 	TEST - režim zadávání textu povolen.
-	4. Zadáme text "Proaquap".
-	5. Stiskněme tlačítko "Enter" na klávesnici.
+Test steps ->
+	1. Click the input field of the search bar in the top of the webpage.
+	2. 	TEST - text input mode is active.
+	3. Enter the text "Proaquap".
+	4. Click the "Enter" button on the keyboard.
 
-Vstupní data ->
-	1. URL domové stránky "https://www.lokni-shop.cz".
+Input data ->
+	1. Homepage's URL "https://www.lokni-shop.cz".
 	2. Text "Proaquap".
 
-Očekávaný výsledek ->
-	1. Po kliknuti na tlačítko "Enter" na klávesnici musí nás prohlížeč přesměrovat na stránku "Vyhledávání - LOKNI-SHOP" (https://www.lokni-shop.cz/vyhledavani/?string=Proaquap).
-	2. Na stránce "Vyhledávání - LOKNI-SHOP" v sekci "Výsledky vyhledávání "Proaquap"" musí být zobrazen text: "Produkty nebyly nalezeny".
+Expected result ->
+	1. Website should redirect us to the webpage "Vyhledávání - LOKNI-SHOP" (https://www.lokni-shop.cz/vyhledavani/?string=Proaquap).
+	2. On the webpage "Vyhledávání - LOKNI-SHOP" in the "Výsledky vyhledávání "Proaquap"" section the text should be showed: "Produkty nebyly nalezeny".
 
 Post-conditions ->
-	1. Zavřeme web.
+	1. Close the website.
 
-Verze TC -> 0.0.0.0.0.0.0.0.1f
+TC version -> 0.0.0.0.0.0.0.0.1f
