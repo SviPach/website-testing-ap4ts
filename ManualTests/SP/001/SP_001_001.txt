@@ -1,30 +1,30 @@
 Id -> SP_001_001
-Název -> Seřazení "Domácí filtrace - LOKNI-SHOP". Nejlevnější.
+Name -> Sorting "Domácí filtrace - LOKNI-SHOP". The lowest price.
 
-Stručný popis -> Testovací případ testující funkcionalitu tlačítka "NEJLEVNĚJŠÍ" na stránce "Domácí filtrace - LOKNI-SHOP".
+Brief description -> This test verifies the functionality of the "NEJLEVNĚJŠÍ" sort button on the webpage "Domácí filtrace - LOKNI-SHOP".
 
 Pre-conditions -> 
 	1. Windows 11 - [Version 10.0.22631.22631].
-	2. Musí být zapnutý WI-FI.
-	3. Myš, klávesnice.
-	4. Pokud web už byl otevřen - musíme ho zavřít.
-	5. Web otevřen pomoci odkazu "https://www.lokni-shop.cz".
-	6. Odmítněme cookies.
-	7. Tlačítko "Domácí filtrace" na stránce "Jedna láhev stačí - LOKNI-SHOP" v panelu "Kategorie".
+	2. WI-FI has to be turned on.
+	3. Mouse, keyboard.
+	4. If the website is opened already - have to close it.
+	5. Website is opened using URL "https://www.lokni-shop.cz".
+	6. Reject cookie-files.
+	7. Button "Domácí filtrace" on the webpage "Jedna láhev stačí - LOKNI-SHOP" in the "Kategorie" panel.
 
-Testovací kroky ->
-	1. Stiskneme tlačítko "Domácí filtrace" v panelu "Kategorie".
-	2. 	TEST - stránka "Domácí filtrace - LOKNI-SHOP" byla otevřena.
-	3. V řadku s tlačitky seřazení stiskneme tlačítko "NEJLEVNĚJŠÍ".
+Test steps ->
+	1. Click the "Domácí filtrace" button in "Kategorie" panel.
+	2. 	TEST - webpage "Domácí filtrace - LOKNI-SHOP" is opened.
+	3. In the line with the sort buttons click the "NEJLEVNĚJŠÍ" button.
 
-Vstupní data ->
-	1. URL domové stránky "https://www.lokni-shop.cz".
+Input data ->
+	1. Homepage's URL "https://www.lokni-shop.cz".
 
-Očekávaný výsledek ->
-	1. Po kliknuti na tlačítko "Nejlevnější" produkty se zobrazují seřazené od nejnižší po nejvyšší cenu.
+Expected result ->
+	1. Products are sorted by price (lowest -> highest).
 
 Post-conditions ->
-	1. Zavřeme web.
+	1. Close the website.
 
-Verze TC -> 0.0.0.0.0.0.0.0.5i
+TC version -> 0.0.0.0.0.0.0.0.5i
 
