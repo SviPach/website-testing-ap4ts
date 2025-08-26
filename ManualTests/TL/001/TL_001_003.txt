@@ -1,28 +1,28 @@
 Id -> TL_001_003
-Název -> Otevřeni stránky "Kuchyňské baterie - LOKNI-SHOP" pomoci horního panelu.
+Name -> Opening the "Kuchyňské baterie - LOKNI-SHOP" webpage using a top panel.
 
-Stručný popis -> Testovací případ testující funkcionalitu tlačítka "KUCNYŇSKÉ BATERIE" v horním panelu.
+Brief description -> This test verifies the functionality of the "KUCNYŇSKÉ BATERIE" button on the top panel.
 
 Pre-conditions -> 
 	1. Windows 11 - [Version 10.0.22631.22631].
-	2. Musí být zapnutý WI-FI.
-	3. Myš, klávesnice.
-	4. Pokud web už byl otevřen - musíme ho zavřít.
-	5. Web otevřen pomoci odkazu "https://www.lokni-shop.cz".
-	6. Odmítněme cookies.
-	7. Tlačítko "KUCNYŇSKÉ BATERIE" na horním panelu stránky "Jedna láhev stačí - LOKNI-SHOP".
+	2. WI-FI has to be turned on.
+	3. Mouse, keyboard.
+	4. If the website is opened already - have to close it.
+	5. Website is opened using URL "https://www.lokni-shop.cz".
+	6. Reject cookie-files.
+	7. Button "KUCNYŇSKÉ BATERIE" on the top panel on the webpage "Jedna láhev stačí - LOKNI-SHOP".
 
-Testovací kroky ->
-	1. Klikneme na tlačítko "KUCNYŇSKÉ BATERIE" na horním panelu.
+Test steps ->
+	1. Click the "KUCNYŇSKÉ BATERIE" button on the top panel.
 
-Vstupní data ->
-	1. URL domové stránky "https://www.lokni-shop.cz".
+Input data ->
+	1. Homepage's URL "https://www.lokni-shop.cz".
 
-Očekávaný výsledek ->
-	1. Po kliknuti na tlačítko "KUCNYŇSKÉ BATERIE" musí se otevřít stránka "Kuchyňské baterie - LOKNI-SHOP" (https://www.lokni-shop.cz/kuchynske-baterie/).
+Expected result ->
+	1. Website should redirect us to the webpage "Kuchyňské baterie - LOKNI-SHOP" (https://www.lokni-shop.cz/kuchynske-baterie/).
 
 Post-conditions ->
-	1. Zavřeme web.
+	1. Close the website.
 
-Verze TC -> 0.0.0.0.0.0.0.0.2h
+TC version -> 0.0.0.0.0.0.0.0.2h
 

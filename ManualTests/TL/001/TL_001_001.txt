@@ -1,28 +1,28 @@
 Id -> TL_001_001
-Název -> Otevřeni hlavně stránky.
+Name -> Opening the homepage.
 
-Stručný popis -> Testovací případ testující funkcionalitu tlačítka vraceni na domovou stránku webu.
+Brief description -> This test verifies the functionality of the homepage's button.
 
 Pre-conditions -> 
 	1. Windows 11 - [Version 10.0.22631.22631].
-	2. Musí být zapnutý WI-FI.
-	3. Myš, klávesnice.
-	4. Pokud web už byl otevřen - musíme ho zavřít.
-	5. Web otevřen pomoci odkazu "https://www.lokni-shop.cz".
-	6. Odmítněme cookies.
-	7. Tlačítko "lokni" na místě ikonu webu na stránce "Jedna láhev stačí - LOKNI-SHOP".
+	2. WI-FI has to be turned on.
+	3. Mouse, keyboard.
+	4. If the website is opened already - have to close it.
+	5. Website is opened using URL "https://www.lokni-shop.cz".
+	6. Reject cookie-files.
+	7. Button "lokni" on the icon's place on the webpage "Jedna láhev stačí - LOKNI-SHOP".
 
-Testovací kroky ->
-	1. Klikneme na ikonu webu "lokni".
+Test steps ->
+	1. Click on the website's icon "lokni".
 
-Vstupní data ->
-	1. URL domové stránky "https://www.lokni-shop.cz".
+Input data ->
+	1. Homepage's URL "https://www.lokni-shop.cz".
 
-Očekávaný výsledek ->
-	1. Po kliknuti na ikonu webu musí nás prohlížeč přesměrovat na stránku "Jedna láhev stačí - LOKNI-SHOP" (https://www.lokni-shop.cz).
+Expected result ->
+	1. Website should redirect us to the webpage  "Jedna láhev stačí - LOKNI-SHOP" (https://www.lokni-shop.cz).
 
 Post-conditions ->
-	1. Zavřeme web.
+	1. Close the website.
 
-Verze TC -> 0.0.0.0.0.0.0.0.4j
+TC version -> 0.0.0.0.0.0.0.0.4j
 

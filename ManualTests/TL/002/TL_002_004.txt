@@ -1,28 +1,27 @@
 Id -> TL_002_004
-Název -> Otevřeni stránky "Skleněné láhve LOKNI - LOKNI-SHOP" pomoci panelu "Kategorie".
+Name -> Opening the "Skleněné láhve LOKNI - LOKNI-SHOP" webpage using the "Kategorie" panel.
 
-Stručný popis -> Testovací případ testující funkcionalitu tlačítka "Skleněné láhve LOKNI" v panelu "Kategorie".
+Brief description -> This test verifies the functionality of the "Skleněné láhve LOKNI" button on the "Kategorie" panel.
 
 Pre-conditions -> 
 	1. Windows 11 - [Version 10.0.22631.22631].
-	2. Musí být zapnutý WI-FI.
-	3. Myš, klávesnice.
-	4. Pokud web už byl otevřen - musíme ho zavřít.
-	5. Web otevřen pomoci odkazu "https://www.lokni-shop.cz".
-	6. Odmítněme cookies.
-	7. Tlačítko "Skleněné láhve LOKNI" na stránce "Jedna láhev stačí - LOKNI-SHOP" v panelu "Kategorie".
+	2. WI-FI has to be turned on.
+	3. Mouse, keyboard.
+	4. If the website is opened already - have to close it.
+	5. Website is opened using URL "https://www.lokni-shop.cz".
+	6. Reject cookie-files.
+	7. Button "Skleněné láhve LOKNI" on the webpage "Jedna láhev stačí - LOKNI-SHOP".
 
-Testovací kroky ->
-	1. Klikneme na tlačítko "Skleněné láhve LOKNI" v panelu "Kategorie".
+Test steps ->
+	1. Click the "Skleněné láhve LOKNI" button on the top panel.
 
-Vstupní data ->
-	1. URL domové stránky "https://www.lokni-shop.cz".
+Input data ->
+	1. Homepage's URL "https://www.lokni-shop.cz".
 
-Očekávaný výsledek ->
-	1. Po kliknuti na tlačítko "Skleněné láhve LOKNI" musí se otevřít stránka "Skleněné láhve LOKNI - LOKNI-SHOP" (https://www.lokni-shop.cz/sklenene-lahve/).
+Expected result ->
+	1. Website should redirect us to the webpage "Skleněné láhve LOKNI - LOKNI-SHOP" (https://www.lokni-shop.cz/sklenene-lahve/).
 
 Post-conditions ->
-	1. Zavřeme web.
+	1. Close the website.
 
-Verze TC -> 0.0.0.0.0.0.0.0.3c
-
+TC version -> 0.0.0.0.0.0.0.0.3c
