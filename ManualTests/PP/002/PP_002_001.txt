@@ -1,27 +1,27 @@
 Id -> PP_002_001
-Název -> Přechod do hodnoceni produktu.
+Name -> Moving to the product's ratings.
 
-Stručný popis -> Testovací případ testující funkcionalitu rychlého přechodu do hodnoceni produktu.
+Brief description -> This test verifies the functionality of quick scrolling to the product's ratings panel.
 
 Pre-conditions -> 
 	1. Windows 11 - [Version 10.0.22631.22631].
-	2. Musí být zapnutý WI-FI.
-	3. Myš, klávesnice.
-	4. Pokud web už byl otevřen - musíme ho zavřít.
-	5. Web otevřen pomoci odkazu "https://www.lokni-shop.cz/domaci-filtrace/domaci-filtrace-lokni-home-ultimate/".
-	6. Odmítněme cookies.
-	7. Tlačítko "# HODNOCENÍ" na stránce "Domácí filtrace Lokni ULTIMATE - LOKNI-SHOP".
+	2. WI-FI has to be turned on.
+	3. Mouse, keyboard.
+	4. If the website is opened already - have to close it.
+	5. Website is opened using URL "https://www.lokni-shop.cz/domaci-filtrace/domaci-filtrace-lokni-home-ultimate/".
+	6. Reject cookie-files.
+	7. Button "# HODNOCENÍ" on the webpage "Domácí filtrace Lokni ULTIMATE - LOKNI-SHOP".
 
-Testovací kroky ->
-	1. Klikněme na tlačítko "# HODNOCENÍ" pod názvem produktu, kde # - počet hodnocení.
+Test steps ->
+	1. Click the "# HODNOCENÍ" button under the product's name, where # - amount of ratings.
 
-Vstupní data ->
-	1. URL stránky "https://www.lokni-shop.cz/domaci-filtrace/domaci-filtrace-lokni-home-ultimate/".
+Input data ->
+	1. Product's URL "https://www.lokni-shop.cz/domaci-filtrace/domaci-filtrace-lokni-home-ultimate/".
 
-Očekávaný výsledek ->
-	1. Po kliknutí na tlačítko "# HODNOCENÍ" musí se nás web posunout dolu do panelu "Hodnocení (#)".
+Expected result ->
+	1. Webpage has to move us down to the "Hodnocení (#)" panel.
 
 Post-conditions ->
-	1. Zavřeme web.
+	1. Close the website.
 
-Verze TC -> 0.0.0.0.0.0.0.0.1d
+TC version -> 0.0.0.0.0.0.0.0.1d
