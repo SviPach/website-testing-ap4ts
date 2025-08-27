@@ -1,88 +1,90 @@
-01 - Tlačítka domove stránky
-	001 - Horní panel a ikona webu
-		TL_001_001 - Otevřeni domove stránky.
-		TL_001_002 - Otevřeni stránky "Domácí filtrace - LOKNI-SHOP" pomoci horního panelu.
-		TL_001_003 - Otevřeni stránky "Kuchyňské baterie - LOKNI-SHOP" pomoci horního panelu.
-		TL_001_004 - Otevřeni stránky "Láhve LOKNI - LOKNI-SHOP" pomoci horního panelu.
-		TL_001_005 - Otevřeni stránky "Příslušenství k lahvím - LOKNI-SHOP" pomoci horního panelu.
-		TL_001_006 - Otevřeni stránky "Filtrace do kanceláře - LOKNI-SHOP" pomoci horního panelu.
-		TL_001_007 - Otevřeni stránky "Vše o nákupu - LOKNI-SHOP" pomoci horního panelu.
-		TL_001_008 - Otevřeni stránky "Kontakty - LOKNI-SHOP" pomoci horního panelu.
-	002 - Panel "Kategorie"
-		TL_002_001 - Otevřeni stránky "Domácí filtrace - LOKNI-SHOP" pomoci panelu "Kategorie".
-		TL_002_002 - Otevřeni stránky "Kuchyňské baterie - LOKNI-SHOP" pomoci panelu "Kategorie".
-		TL_002_003 - Sbalení rozbalovacího tlačítka "Láhve LOKNI" v panelu "Kategorie".
-		TL_002_004 - Otevřeni stránky "Skleněné láhve LOKNI - LOKNI-SHOP" pomoci panelu "Kategorie".
-		TL_002_005 - Otevřeni stránky "Nerezové láhve LOKNI - LOKNI-SHOP" pomoci panelu "Kategorie".
-		TL_002_006 - Otevřeni stránky "Zachraň lahev - LOKNI-SHOP" pomoci panelu "Kategorie".
-		TL_002_007 - Otevřeni stránky "Příslušenství k lahvím - LOKNI-SHOP" pomoci panelu "Kategorie".
-		TL_002_008 - Otevřeni stránky "Filtrace do kanceláře - LOKNI-SHOP" pomoci panelu "Kategorie".
+01 - Homepage buttons
+	001 - Top panel and the website icon
+		TL_001_001 - Opening the homepage.
+		TL_001_002 - Opening the "Domácí filtrace - LOKNI-SHOP" webpage using a top panel.
+		TL_001_003 - Opening the "Kuchyňské baterie - LOKNI-SHOP" webpage using a top panel.
+		TL_001_004 - Opening the "Láhve LOKNI - LOKNI-SHOP" webpage using a top panel.
+		TL_001_005 - Opening the "Příslušenství k lahvím - LOKNI-SHOP" webpage using a top panel.
+		TL_001_006 - Opening the "Filtrace do kanceláře - LOKNI-SHOP" webpage using a top panel.
+		TL_001_007 - Opening the "Vše o nákupu - LOKNI-SHOP" webpage using a top panel.
+		TL_001_008 - Opening the "Kontakty - LOKNI-SHOP" webpage using a top panel.
+	002 - "Kategorie" panel
+		TL_002_001 - Opening the "Domácí filtrace - LOKNI-SHOP" webpage using the "Kategorie" panel.
+		TL_002_002 - Opening the "Kuchyňské baterie - LOKNI-SHOP" webpage using the "Kategorie" panel.
+		TL_002_003 - Collapsing the "Láhve LOKNI" button on the "Kategorie" panel.
+		TL_002_004 - Opening the "Skleněné láhve LOKNI - LOKNI-SHOP" webpage using the "Kategorie" panel.
+		TL_002_005 - Opening the "Nerezové láhve LOKNI - LOKNI-SHOP" webpage using the "Kategorie" panel.
+		TL_002_006 - Opening the "Zachraň lahev - LOKNI-SHOP" webpage using the "Kategorie" panel.
+		TL_002_007 - Opening the "Příslušenství k lahvím - LOKNI-SHOP" webpage using the "Kategorie" panel.
+		TL_002_008 - Opening the "Filtrace do kanceláře - LOKNI-SHOP" webpage using the "Kategorie" panel.
 
-02 - Seřazeni produktů
-	001 - Seřazeni "Domácí filtrace"
-		SP_001_001 - Seřazení "Domácí filtrace - LOKNI-SHOP". Nejlevnější.					[AUTOMATED]
-		SP_001_002 - Seřazení "Domácí filtrace - LOKNI-SHOP". Nejdražší.					[AUTOMATED]
-		SP_001_003 - Seřazení "Domácí filtrace - LOKNI-SHOP". Abecedně.						[AUTOMATED]
+02 - Product sorting
+	001 - Sorting "Domácí filtrace"
+		SP_001_001 - Sorting "Domácí filtrace - LOKNI-SHOP". The lowest price.					[AUTOMATED]
+		SP_001_002 - Sorting "Domácí filtrace - LOKNI-SHOP". The highest price.					[AUTOMATED]
+		SP_001_003 - Sorting "Domácí filtrace - LOKNI-SHOP". By alphabet.					[AUTOMATED]
 
-03 - Učet
-	001 - Přihlášení
-		UC_001_001 - Přihlášení bez e-mailu. 									[AUTOMATED]
-		UC_001_002 - Přihlášení bez hesla.									[AUTOMATED]
-		UC_001_003 - Přihlášení z údaje.									[AUTOMATED]
-		UC_001_004 - Přihlášení ze špatnými údaje.								[AUTOMATED]
-		UC_001_005 - Blokovaní přihlášení.									[AUTOMATED]
-		UC_001_006 - Odhlášení.											[AUTOMATED]
-	002 - Klientské centrum
-		UC_002_001 - Otevřeni stránky "Moje objednávky".							[AUTOMATED]
-		UC_002_002 - Otevřeni stránky "Moje daňové doklady".							[AUTOMATED]
-		UC_002_003 - Otevřeni stránky "Moje zálohové faktury".
-		UC_002_004 - Otevřeni stránky "Moje dobropisy".
-		UC_002_005 - Otevřeni stránky "Moje dodací listy".
-		UC_002_006 - Otevřeni stránky "Moje slevy".
-	003 - Změna osobní údaje
-		UC_003_001 - Změna jména a příjmení.									[AUTOMATED]
-		UC_003_002 - Změna telefonního čísla.									[AUTOMATED]
-		UC_003_003 - Změna hesla.										[AUTOMATED]
-		UC_003_004 - Změna fakturační adresy.									[AUTOMATED]
-		UC_003_005 - Přidání nové doručovací adresy.								[AUTOMATED]
-		UC_003_006 - Smazání doručovací adresy.									[AUTOMATED]
-		UC_003_007 - Nastavení doručovací adresy jako výchozí.							[AUTOMATED]
-		UC_003_008 - Upraveni doručovací adresy.								[AUTOMATED]
+03 - Account
+	001 - Signing in
+		UC_001_001 - Signing in without e-mail. 								[AUTOMATED]
+		UC_001_002 - Signing in without a password.								[AUTOMATED]
+		UC_001_003 - Signing in with credentials.								[AUTOMATED]
+		UC_001_004 - Signing in with incorrect credentials.							[AUTOMATED]
+		UC_001_005 - Sign in blocking.										[AUTOMATED]
+		UC_001_006 - This test verifies the functionality of the signing out.					[AUTOMATED]
+	002 - Client center
+		UC_002_001 - Opening the "Moje objednávky" webpage.							[AUTOMATED]
+		UC_002_002 - Opening the "Moje daňové doklady" webpage.							[AUTOMATED]
+		UC_002_003 - Opening the "Moje zálohové faktury" webpage.
+		UC_002_004 - Opening the "Moje dobropisy" webpage.
+		UC_002_005 - Opening the "Moje dodací listy" webpage.
+		UC_002_006 - Opening the "Moje slevy" webpage.
+	003 - Changing the account information
+		UC_003_001 - Changing first and last name.								[AUTOMATED]
+		UC_003_002 - Changing the mobile phone number.								[AUTOMATED]
+		UC_003_003 - Changing the password.									[AUTOMATED]
+		UC_003_004 - Changing the billing address.								[AUTOMATED]
+		UC_003_005 - Adding a new delivery address.								[AUTOMATED]
+		UC_003_006 - Deleting the delivery address.								[AUTOMATED]
+		UC_003_007 - Choosing default delivery address.								[AUTOMATED]
+		UC_003_008 - Editing the delivery address.								[AUTOMATED]
 
-04 - Vyhledávání
-	001 - Produkty jsou nalezené
-		VY_001_001 - Vyhledávání lahví "Proaqua".								[AUTOMATED]
-		VY_001_002 - Vyhledávání lahví "Proaqua" - rychlý přistup.						[AUTOMATED]
-	002 - Produkty nejsou nalezené
-		VY_002_001 - Vyhledávání lahví "Proaquap".								[AUTOMATED]
+04 - Product searching
+	001 - Products are found
+		VY_001_001 - Searching the "Proaqua" bottles.								[AUTOMATED]
+		VY_001_002 - Searching the "Proaqua" bottles - fast access.						[AUTOMATED]
+	002 - Product are not found
+		VY_002_001 - Searching the "Proaquap" bottles.								[AUTOMATED]
 
-05 - Košík
-	001 - Přidáni produktů do košíku
-		KO_001_001 - Přidání jednoho produktu do košíku.							[AUTOMATED]
-		KO_001_002 - Přidání několika různých produktů do košíku.						[AUTOMATED]
-		KO_001_003 - Přidáni několika stejných produktů do košíku.						[AUTOMATED]
-		KO_001_004 - Přidání nulového množství produktu do košíku.						[AUTOMATED]
-		KO_001_005 - Přidání neexistujícího množství produktu do košíku.					[AUTOMATED]
-		KO_001_006 - Přidání více 9999ks produktu do košíku.							[AUTOMATED]
-	002 - Úprava košíku
-		KO_002_001 - Odstranění produktu z košíku.								[AUTOMATED]
-		KO_002_002 - Změna počtu produktů v košíku.								[AUTOMATED]
-		KO_002_003 - Odstranění produktů z košíku - rychlý přistup.						[AUTOMATED]
-		KO_002_004 - Změna počtu produktů v košíku - rychlý přistup.						[AUTOMATED]
-		KO_002_005 - Změna počtu produktů v košíku na neexistující množství.					[AUTOMATED]
+05 - Shopping cart
+	001 - Adding products to the shopping cart
+		KO_001_001 - Adding a single item to cart.								[AUTOMATED]
+		KO_001_002 - Adding a few different items to cart.							[AUTOMATED]
+		KO_001_003 - Adding a few same items to cart.								[AUTOMATED]
+		KO_001_004 - Adding zero items to cart.									[AUTOMATED]
+		KO_001_005 - Attempt to add an invalid quantity of item to the cart.					[AUTOMATED]
+		KO_001_006 - Adding more than 9999pc of item to the cart.						[AUTOMATED]
+	002 - Changing products in the shopping cart
+		KO_002_001 - Remove the item from the cart.								[AUTOMATED]
+		KO_002_002 - Changing the quantity of the item in the cart.						[AUTOMATED]
+		KO_002_003 - Removing the item from the cart - fast access.						[AUTOMATED]
+		KO_002_004 - Changing the quantity of the item - fast access.						[AUTOMATED]
+		KO_002_005 - Changing the quantity of the item in the cart to the unavailable amount.			[AUTOMATED]
 
-06 - Přehled produktu
-	001 - Obrázky
-		PP_001_001 - "ZOOM" funkce obrázku.									[AUTOMATED]
-		PP_001_002 - Otevření obrázku na celou obrazovku.							[AUTOMATED]
-		PP_001_003 - Přepínání obrázku v režimu celé obrazovky.							[AUTOMATED]
-		PP_001_004 - Přepínání obrázku bez režimu celé obrazovky.						[AUTOMATED]
-		PP_001_005 - Prohlížení obrázků bez otevření.								[AUTOMATED]
-	002 - Další informace o produktu
-		PP_002_001 - Přechod do hodnoceni produktu.								[AUTOMATED]
-		PP_002_002 - Přechod do popisu produktu.								[AUTOMATED]
+06 - Product overview
+	001 - Images
+		PP_001_001 - Image's "ZOOM" function.									[AUTOMATED]
+		PP_001_002 - Opening the image in a full screen mode.							[AUTOMATED]
+		PP_001_003 - Switching the images in a full screen mode.						[AUTOMATED]
+		PP_001_004 - Switching the images without a full screen mode.						[AUTOMATED]
+		PP_001_005 - Viewing images without opening them.							[AUTOMATED]
+	002 - Other product's information
+		PP_002_001 - Moving to the product's ratings.								[AUTOMATED]
+		PP_002_002 - Moving to the product's description.							[AUTOMATED]
 		
 		
 
-Celkem testů: 60
-Automatické testy: 40
+
+Test coverage summary:
+	Overall manual tests: 60
+	Automated tests: 40
