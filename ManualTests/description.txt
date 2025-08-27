@@ -1,23 +1,23 @@
-01 – Testování tlačítek domovské stránky všech panelů
-	001 – Testování horního panelu a možnosti vrácení na domovskou stránku pomocí kliknutí na ikonu webu.
-	002 – Testování panelu "Kategorie" na domovské stránce.
+01 – Testing homepage panel buttons
+ 	001 – Testing the top panel and the option to return to the homepage by clicking the website icon.
+ 	002 – Testing the "Kategorie" panel on the homepage.
 
-02 – Testování tlačítek seřazení produktů
-	001 – Testování funkce seřazení produktů z kategorie "Domácí filtrace".
+02 – Testing product sorting buttons
+ 	001 – Testing the sorting functionality for products in the "Domácí filtrace" category.
 
-03 – Testovací případy testující funkcionalitu účtu přihlášeného zákazníka
-	001 – Testování tlačítek přihlášení/odhlášení.
-	002 – Testování tlačítek z informací o přihlášeném klientovi.
-	003 – Testování změny osobních údajů přihlášeného zákazníka.
+03 – Test cases verifying logged-in customer account functionality
+ 	001 – Testing login/logout buttons.
+ 	002 – Testing buttons in the logged-in customer information panel.
+ 	003 – Testing changes to personal data of the logged-in customer.
 
-04 – Testování funkce vyhledávání produktů
-	001 – Případy, kdy jsou hledané produkty nalezeny.
-	002 – Případy, kdy hledané produkty nejsou nalezeny.
+04 – Testing product search functionality
+ 	001 – Cases where searched products are found.
+ 	002 – Cases where searched products are not found.
 
-05 – Testování košíku
-	001 – Testování přidávání produktů do košíku.
-	002 – Testování funkcionality košíku, jako je změna množství nebo odstranění produktů.
+05 – Testing the shopping cart
+ 	001 – Testing adding products to the shopping cart.
+ 	002 – Testing cart functionality such as changing quantity or removing products.
 
-06 – Testování stránky produktů
-	001 – Testování funkcionality obrázků produktu a jejich galerie.
-	002 – Přechody na další informace o produktu pomocí tlačítek.
+06 – Testing product page
+ 	001 – Testing product images functionality and gallery.
+ 	002 – Testing navigation to additional product information using buttons.
