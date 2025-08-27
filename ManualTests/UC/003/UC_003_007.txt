@@ -1,57 +1,56 @@
 Id -> UC_003_007
-Název -> Nastavení doručovací adresy jako výchozí.
+Name -> Choosing default delivery address.
 
-Stručný popis -> Testovací případ testující funkcionalitu nastavení výchozí doručovací adresy v nastavení účtu klienta.
+Brief description -> This test verifies the functionality of the default delivery address choosing.
 
 Pre-conditions -> 
 	1. Windows 11 - [Version 10.0.22631.22631].
-	2. Musí být zapnutý WI-FI.
-	3. Myš, klávesnice.
-	4. Pokud web už byl otevřen - musíme ho zavřít.
-	5. Web otevřen pomoci odkazu "https://www.lokni-shop.cz".
-	6. Pokud jsme přihlášený - musíme se odhlásit.
-	7. Nemusí být vytvořena žádná jiná doručovací adresa.
-	8. Odmítněme cookies.
-	9. Rozbalovací tlačítko "PŘIHLÁŠENÍ" na stránce "Jedna láhev stačí - LOKNI-SHOP".
+	2. WI-FI has to be turned on.
+	3. Mouse, keyboard.
+	4. If the website is opened already - have to close it.
+	5. Website is opened using URL "https://www.lokni-shop.cz".
+	6. If we are logged in - have to sign out.
+	7. Reject cookie-files.
+	8. Drop-down button "PŘIHLÁŠENÍ" on the webpage "Jedna láhev stačí - LOKNI-SHOP".
 
-Testovací kroky ->
-	1. Klikneme na rozbalovací tlačítko "PŘIHLÁŠENÍ" nahoře doprava.
-	2. 	TEST - Tlačítko "PŘIHLÁŠENÍ" se rozbalilo.
-	3. Zadáme "mimoli1034@noomlocs.com" v poli "E-MAIL" v rozbaleném okně tlačítka "PŘIHLÁŠENÍ".
-	4. Zadáme "123456789" v poli "HESLO" v rozbaleném okně tlačítka "PŘIHLÁŠENÍ".
-	5. Klikněme v rozbaleném okně tlačítka "PŘIHLÁŠENÍ" na tlačítko "Přihlásit se".
-	6. 	TEST - přihlášení bylo úspěšně.
-	7. Klikněme na tlačítko "MŮJ ÚČET" doprava nahoře.
-	8. V panelu doprava stiskněme tlačítko "Moje osobní údaje".
-	9. Pojďme dolu a v sekci "Doručovací adresy" klikněme na tlačítko "Přidat novou adresu".
-	10. Zadáme "XXXXX" v poli "JMÉNO A PŘIJMENÍ".
-	11. Klikněme na tlačítko "Odeslat".
-	12. 	TEST - nová adresa je přidaná a nastavena jako výchozí.
-	13. Pojďme dolu a v sekci "Doručovací adresy" klikněme na tlačítko "Přidat novou adresu".
-	14. Zadáme "Marcel Orel" v poli "JMÉNO A PŘIJMENÍ".
-	15. Zadáme "Zlínská 1020" v poli "ULICE".
-	16. Zadáme "Zlín" v poli "MĚSTO".
-	17. Zadáme "76314" v poli "PSČ".
-	18. V poli "ZEMĚ" zvolíme "Slovensko".
-	19. Klikněme na tlačítko "Odeslat".
-	20. 	TEST - nová adresa je přidaná.
-	21. V sekci "Doručovací adresy" ve sloupci "Výchozí" v řádku nové druhé adresy klikněme na tlačítko "Změnit".
+Test steps ->
+	1. Click the drop-down "PŘIHLÁŠENÍ" button in the top right corner.
+	2. 	TEST - Button "PŘIHLÁŠENÍ" is expanded.
+	3. Enter "mimoli1034@noomlocs.com" in the input field "E-MAIL" in the expanded window of the "PŘIHLÁŠENÍ" button.
+	4. Enter "123456789" in the input field "HESLO" in the expanded window of the "PŘIHLÁŠENÍ" button.
+	5. On the opened window click the button "Přihlásit se".
+	6. 	TEST - sign in is successful.
+	7. Click the "MŮJ ÚČET" button in the top right corner.
+	8. Click the "Moje osobní údaje" button on the right panel.
+	9. Go to the bottom and click the "Přidat novou adresu" button in the "Doručovací adresy" section.
+	10. Enter value "XXXXX" in the input field "JMÉNO A PŘIJMENÍ".
+	11. Click the "Odeslat" button.
+	12. 	TEST - new delivery address was added and chosen as a default delivery address.
+	13. Go to the bottom and click the "Přidat novou adresu" button in the "Doručovací adresy" section.
+	14. Enter value "Marcel Orel" in the input field "JMÉNO A PŘIJMENÍ".
+	15. Enter value "Zlínská 1050" in the input field "ULICE".
+	16. Enter value "Zlín" in the input field "MĚSTO".
+	17. Enter value "76314" in the input field "PSČ".
+	18. In the field "ZEMĚ" choose "Slovensko".
+	19. Click the "Odeslat" button.
+	20. 	TEST - new delivery address was added.
+	21. Click the "Změnit" button in the section "Doručovací adresy" in the column "Výchozí" next to the last added delivery address.
 
-Vstupní data ->
-	1. URL domové stránky "https://www.lokni-shop.cz".
-	2. E-mailova adresa "mimoli1034@noomlocs.com".
-	3. Heslo "123456789".
+Input data ->
+	1. Homepage's URL "https://www.lokni-shop.cz".
+	2. E-mail "mimoli1034@noomlocs.com".
+	3. Password "123456789".
 	4. Text "XXXXX".
 	5. Text "Marcel Orel".
 	6. Text "Mlynská 8".
 	7. Text "Košice".
 	8. Text "04001".
 
-Očekávaný výsledek ->
-	1. Po kliknuti na tlačítko "Změnit" musí nová adresa zvolena jako výchozí.
+Expected result ->
+	1. New delivery address has to be shown as a default.
 
 Post-conditions ->
-	1. Smažeme nově vytvořené adresy.
-	2. Zavřeme web.
+	1. Delete the new created addresses.
+	2. Close the website.
 
-Verze TC -> 0.0.0.0.0.0.0.0.1f
+TC version -> 0.0.0.0.0.0.0.0.1f

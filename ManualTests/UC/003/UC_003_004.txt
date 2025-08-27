@@ -1,38 +1,38 @@
 Id -> UC_003_004
-Název -> Změna fakturační adresy.
+Name -> Changing the billing address.
 
-Stručný popis -> Testovací případ testující funkcionalitu změny fakturační adresy v nastavení účtu klienta.
+Brief description -> This test verifies the functionality of the billing address changing.
 
 Pre-conditions -> 
 	1. Windows 11 - [Version 10.0.22631.22631].
-	2. Musí být zapnutý WI-FI.
-	3. Myš, klávesnice.
-	4. Pokud web už byl otevřen - musíme ho zavřít.
-	5. Web otevřen pomoci odkazu "https://www.lokni-shop.cz".
-	6. Pokud jsme přihlášený - musíme se odhlásit.
-	7. Odmítněme cookies.
-	8. Rozbalovací tlačítko "PŘIHLÁŠENÍ" na stránce "Jedna láhev stačí - LOKNI-SHOP".
+	2. WI-FI has to be turned on.
+	3. Mouse, keyboard.
+	4. If the website is opened already - have to close it.
+	5. Website is opened using URL "https://www.lokni-shop.cz".
+	6. If we are logged in - have to sign out.
+	7. Reject cookie-files.
+	8. Drop-down button "PŘIHLÁŠENÍ" on the webpage "Jedna láhev stačí - LOKNI-SHOP".
 
-Testovací kroky ->
-	1. Klikneme na rozbalovací tlačítko "PŘIHLÁŠENÍ" nahoře doprava.
-	2. 	TEST - Tlačítko "PŘIHLÁŠENÍ" se rozbalilo.
-	3. Zadáme "mimoli1034@noomlocs.com" v poli "E-MAIL" v rozbaleném okně tlačítka "PŘIHLÁŠENÍ".
-	4. Zadáme "123456789" v poli "HESLO" v rozbaleném okně tlačítka "PŘIHLÁŠENÍ".
-	5. Klikněme v rozbaleném okně tlačítka "PŘIHLÁŠENÍ" na tlačítko "Přihlásit se".
-	6. 	TEST - přihlášení bylo úspěšně.
-	7. Klikněme na tlačítko "MŮJ ÚČET" doprava nahoře.
-	8. V panelu doprava stiskněme tlačítko "Moje osobní údaje".
-	9. Zadáme "Jozefa Karola 15" v poli "ULICE A ČÍSLO DOMU".
-	10. Zadáme "Bratislava" v poli "MĚSTO".
-	11. Zadáme "82106" v poli "PSČ".
-	12. V poli "ZEMĚ" zvolíme "Slovensko".
-	13. Zadáme "123456789" v poli "SOUČASNÉ HESLO PRO POTVRZENÍ ZMĚN".
-	14. Klikněme na tlačítko "Uložit".
+Test steps ->
+	1. Click the drop-down "PŘIHLÁŠENÍ" button in the top right corner.
+	2. 	TEST - Button "PŘIHLÁŠENÍ" is expanded.
+	3. Enter "mimoli1034@noomlocs.com" in the input field "E-MAIL" in the expanded window of the "PŘIHLÁŠENÍ" button.
+	4. Enter "123456789" in the input field "HESLO" in the expanded window of the "PŘIHLÁŠENÍ" button.
+	5. On the opened window click the button "Přihlásit se".
+	6. 	TEST - sign in is successful.
+	7. Click the "MŮJ ÚČET" button in the top right corner.
+	8. Click the "Moje osobní údaje" button on the right panel.
+	9. Enter value "Jozefa Karola 15" in the input field "ULICE A ČÍSLO DOMU".
+	10. Enter value "Bratislava" in the input field "MĚSTO".
+	11. Enter value "82106" in the input field "PSČ".
+	12. In the input field "ZEMĚ" choose "Slovensko".
+	13. Enter value "123456789" in the input field "SOUČASNÉ HESLO PRO POTVRZENÍ ZMĚN".
+	14. Click the "Uložit" button.
 
-Vstupní data ->
-	1. URL domové stránky "https://www.lokni-shop.cz".
-	2. E-mailova adresa "mimoli1034@noomlocs.com".
-	3. Heslo "123456789".
+Input data ->
+	1. Homepage's URL "https://www.lokni-shop.cz".
+	2. E-mail "mimoli1034@noomlocs.com".
+	3. Password "123456789".
 	4. Text "Jozefa Karola 15".
 	5. Text "Bratislava".
 	6. Text "82106".
@@ -40,21 +40,21 @@ Vstupní data ->
 	8. Text "Zlín".
 	9. Text "76314".
 
-Očekávaný výsledek ->
-	1. Po kliknuti na tlačítko "Uložit" musí se nám zobrazit označení "Záznam byl v pořádku uložen.".
-	2. V poli "ULICE A ČÍSLO DOMU" je zadáno text "Jozefa Karola 15".
-	3. V poli "MĚSTO" je zadáno text "Bratislava".
-	4. V poli "PSČ" je zadáno text "82106".
-	5. V poli "ZEMĚ" je zvoleno "Slovensko".
+Expected result ->
+	1. The message should be shown "Záznam byl v pořádku uložen.".
+	2. In the input field "ULICE A ČÍSLO DOMU" the text should be "Jozefa Karola 15".
+	3. In the input field "MĚSTO" the text should be "Bratislava".
+	4. In the input field "PSČ" the text should be "82106".
+	5. In the input field "ZEMĚ" the "Slovensko" chosen.
 
 Post-conditions ->
-	1. Zadáme "Zlínská 1008" v poli "ULICE A ČÍSLO DOMU".
-	2. Zadáme "Zlín" v poli "MĚSTO".
-	3. Zadáme "76314" v poli "PSČ".
-	4. V poli "ZEMĚ" zvolíme "Česká republika".
-	5. Zadáme "123456789" v poli "SOUČASNÉ HESLO PRO POTVRZENÍ ZMĚN".
-	6. Klikněme na tlačítko "Uložit".
-	7. 	TEST - fakturační adresa je změněna. 
-	8. Zavřeme web.
+	1. Enter value "Zlínská 1008" in the input field "ULICE A ČÍSLO DOMU".
+	2. Enter value "Zlín" in the input field "MĚSTO".
+	3. Enter value "76314" in the input field "PSČ".
+	4. In the input "ZEMĚ" choose "Česká republika".
+	5. Enter value "123456789" in the input field "SOUČASNÉ HESLO PRO POTVRZENÍ ZMĚN".
+	6. Click the "Uložit" button.
+	7. 	TEST - billing address was changed. 
+	8. Close the website.
 
-Verze TC -> 0.0.0.0.0.0.0.0.1f
+TC version -> 0.0.0.0.0.0.0.0.1f

@@ -1,35 +1,35 @@
 Id -> UC_001_005
-Název -> Blokovaní přihlášení.
+Name -> Sign in blocking.
 
-Stručný popis -> Testovací případ testující funkcionalitu blokování přihlášení kvůli zadání špatných vstupních údajů třikrát.
+Brief description -> This test verifies the functionality of the sign in blocking after entering wrong credentials 3 times.
 
 Pre-conditions -> 
 	1. Windows 11 - [Version 10.0.22631.22631].
-	2. Musí být zapnutý WI-FI.
-	3. Myš, klávesnice.
-	4. Pokud web už byl otevřen - musíme ho zavřít.
-	5. Web otevřen pomoci odkazu "https://www.lokni-shop.cz".
-	6. Pokud jsme přihlášený - musíme se odhlásit.
-	7. Odmítněme cookies.
-	8. Rozbalovací tlačítko "PŘIHLÁŠENÍ" na stránce "Jedna láhev stačí - LOKNI-SHOP".
+	2. WI-FI has to be turned on.
+	3. Mouse, keyboard.
+	4. If the website is opened already - have to close it.
+	5. Website is opened using URL "https://www.lokni-shop.cz".
+	6. If we are logged in - have to sign out.
+	7. Reject cookie-files.
+	8. Drop-down button "PŘIHLÁŠENÍ" on the webpage "Jedna láhev stačí - LOKNI-SHOP".
 
-Testovací kroky ->
-	1. Klikneme na rozbalovací tlačítko "PŘIHLÁŠENÍ" nahoře doprava.
-	2. 	TEST - Tlačítko "PŘIHLÁŠENÍ" se rozbalilo.
-	3. Zadáme "mimoli1034@noomlocs.com" v poli "E-MAIL" v rozbaleném okně tlačítka "PŘIHLÁŠENÍ".
-	4. Zadáme "1234" v poli "HESLO" v rozbaleném okně tlačítka "PŘIHLÁŠENÍ".
-	5. Klikneme v rozbaleném okně tlačítka "PŘIHLÁŠENÍ" na tlačítko "Přihlásit se".
-	6. Zopakujeme ještě dvakrát kroky 1-6.
+Test steps ->
+	1. Click the drop-down "PŘIHLÁŠENÍ" button in the top right corner.
+	2. 	TEST - Button "PŘIHLÁŠENÍ" is expanded.
+	3. Enter "mimoli1034@noomlocs.com" in the input field "E-MAIL" in the expanded window of the "PŘIHLÁŠENÍ" button.
+	4. Enter "1234" in the input field "HESLO" in the expanded window of the "PŘIHLÁŠENÍ" button.
+	5. On the opened window click the button "Přihlásit se".
+	6. Repeat steps 1-5 two more times.
 
-Vstupní data ->
-	1. URL domové stránky "https://www.lokni-shop.cz".
-	2. E-mailova adresa "mimoli1034@noomlocs.com".
-	3. Heslo "mimoli1034@noomlocs.com".
+Input data ->
+	1. Homepage's URL "https://www.lokni-shop.cz".
+	2. E-mail "mimoli1034@noomlocs.com".
+	3. Password "1234".
 
-Očekávaný výsledek ->
-	1. Musí se zobrazit okno s textem "Neplatné přihlášení. Z bezpečnostních důvodů jsou umožněny pouze 3 pokusy v průběhu 30 minut. Pokud již neznáte přihlašovací jméno a heslo, můžete si ho nechat zaslat na e-mail.".
+Expected result ->
+	1. The window with the message "Neplatné přihlášení. Z bezpečnostních důvodů jsou umožněny pouze 3 pokusy v průběhu 30 minut. Pokud již neznáte přihlašovací jméno a heslo, můžete si ho nechat zaslat na e-mail." has to appear.
 
 Post-conditions ->
-	1. Zavřeme web.
+	1. Close the website.
 
-Verze TC -> 0.0.0.0.0.0.0.0.1e
+TC version -> 0.0.0.0.0.0.0.0.1e

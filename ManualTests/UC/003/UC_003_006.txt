@@ -1,41 +1,40 @@
 Id -> UC_003_006
-Název -> Smazání doručovací adresy.
+Name -> Deleting the delivery address.
 
-Stručný popis -> Testovací případ testující funkcionalitu smazání doručovací adresy v nastavení účtu klienta.
+Brief description -> This test verifies the functionality of the delivery address deleting.
 
 Pre-conditions -> 
 	1. Windows 11 - [Version 10.0.22631.22631].
-	2. Musí být zapnutý WI-FI.
-	3. Myš, klávesnice.
-	4. Pokud web už byl otevřen - musíme ho zavřít.
-	5. Web otevřen pomoci odkazu "https://www.lokni-shop.cz".
-	6. Pokud jsme přihlášený - musíme se odhlásit.
-	7. Úspěšné ukončeni testu UC_003_005.
-	8. Odmítněme cookies.
-	9. Rozbalovací tlačítko "PŘIHLÁŠENÍ" na stránce "Jedna láhev stačí - LOKNI-SHOP".
+	2. WI-FI has to be turned on.
+	3. Mouse, keyboard.
+	4. If the website is opened already - have to close it.
+	5. Website is opened using URL "https://www.lokni-shop.cz".
+	6. Successful completing of the UC_003_005 test.
+	7. Reject cookie-files.
+	8. Drop-down button "PŘIHLÁŠENÍ" on the webpage "Jedna láhev stačí - LOKNI-SHOP".
 
-Testovací kroky ->
-	1. Klikneme na rozbalovací tlačítko "PŘIHLÁŠENÍ" nahoře doprava.
-	2. 	TEST - Tlačítko "PŘIHLÁŠENÍ" se rozbalilo.
-	3. Zadáme "mimoli1034@noomlocs.com" v poli "E-MAIL" v rozbaleném okně tlačítka "PŘIHLÁŠENÍ".
-	4. Zadáme "123456789" v poli "HESLO" v rozbaleném okně tlačítka "PŘIHLÁŠENÍ".
-	5. Klikněme v rozbaleném okně tlačítka "PŘIHLÁŠENÍ" na tlačítko "Přihlásit se".
-	6. 	TEST - přihlášení bylo úspěšně.
-	7. Klikněme na tlačítko "MŮJ ÚČET" doprava nahoře.
-	8. V panelu doprava stiskněme tlačítko "Moje osobní údaje".
-	9. Pojďme dolu a v sekci "Doručovací adresy" ve sloupci "Smazat" v řádku adresy, vytvořené v tesu UC_003_005 klikněme na tlačítko "Smazat".
-	10. V zobrazeném alert-okně stiskněme tlačítko "OK".
+Test steps ->
+	1. Click the drop-down "PŘIHLÁŠENÍ" button in the top right corner.
+	2. 	TEST - Button "PŘIHLÁŠENÍ" is expanded.
+	3. Enter "mimoli1034@noomlocs.com" in the input field "E-MAIL" in the expanded window of the "PŘIHLÁŠENÍ" button.
+	4. Enter "123456789" in the input field "HESLO" in the expanded window of the "PŘIHLÁŠENÍ" button.
+	5. On the opened window click the button "Přihlásit se".
+	6. 	TEST - sign in is successful.
+	7. Click the "MŮJ ÚČET" button in the top right corner.
+	8. Click the "Moje osobní údaje" button on the right panel.
+	9. Go to the bottom and click the "Smazat" button in the "Smazat" column in the "Doručovací adresy" section next to the address we created in the UC_003_005 test.
+	10. In the displayed alert-window click the "OK" button.
 
-Vstupní data ->
-	1. URL domové stránky "https://www.lokni-shop.cz".
-	2. E-mailova adresa "mimoli1034@noomlocs.com".
-	3. Heslo "123456789".
+Input data ->
+	1. Homepage's URL "https://www.lokni-shop.cz".
+	2. E-mail "mimoli1034@noomlocs.com".
+	3. Password "123456789".
 
-Očekávaný výsledek ->
-	1. Po kliknuti na tlačítko "OK" musí se nám zobrazit označení "Záznam byl úspěšně odstraněn.".
-	2. Po kliknuti na tlačítko "OK" adresa, vytvořena v testu UC_003_005 musí byt smazána.
+Expected result ->
+	1. The message "Záznam byl úspěšně odstraněn." should be displayed.
+	2. The delivery address, created during UC_003_005 test should be deleted.
 
 Post-conditions ->
-	1. Zavřeme web.
+	1. Close the website.
 
-Verze TC -> 0.0.0.0.0.0.0.0.1g
+TC version -> 0.0.0.0.0.0.0.0.1g

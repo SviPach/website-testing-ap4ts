@@ -1,56 +1,54 @@
 Id -> UC_003_008
-Název -> Upraveni doručovací adresy.
+Name -> Editing the delivery address.
 
-Stručný popis -> Testovací případ testující funkcionalitu upravení doručovací adresy v nastavení účtu klienta.
+Brief description -> This test verifies the functionality of the delivery address editing.
 
 Pre-conditions -> 
 	1. Windows 11 - [Version 10.0.22631.22631].
-	2. Musí být zapnutý WI-FI.
-	3. Myš, klávesnice.
-	4. Pokud web už byl otevřen - musíme ho zavřít.
-	5. Web otevřen pomoci odkazu "https://www.lokni-shop.cz".
-	6. Pokud jsme přihlášený - musíme se odhlásit.
-	7. Odmítněme cookies.
-	8. Rozbalovací tlačítko "PŘIHLÁŠENÍ" na stránce "Jedna láhev stačí - LOKNI-SHOP".
+	2. WI-FI has to be turned on.
+	3. Mouse, keyboard.
+	4. If the website is opened already - have to close it.
+	5. Website is opened using URL "https://www.lokni-shop.cz".
+	6. If we are logged in - have to sign out.
+	7. Reject cookie-files.
+	8. Drop-down button "PŘIHLÁŠENÍ" on the webpage "Jedna láhev stačí - LOKNI-SHOP".
 
-Testovací kroky ->
-	1. Klikneme na rozbalovací tlačítko "PŘIHLÁŠENÍ" nahoře doprava.
-	2. 	TEST - Tlačítko "PŘIHLÁŠENÍ" se rozbalilo.
-	3. Zadáme "mimoli1034@noomlocs.com" v poli "E-MAIL" v rozbaleném okně tlačítka "PŘIHLÁŠENÍ".
-	4. Zadáme "123456789" v poli "HESLO" v rozbaleném okně tlačítka "PŘIHLÁŠENÍ".
-	5. Klikněme v rozbaleném okně tlačítka "PŘIHLÁŠENÍ" na tlačítko "Přihlásit se".
-	6. 	TEST - přihlášení bylo úspěšně.
-	7. Klikněme na tlačítko "MŮJ ÚČET" doprava nahoře.
-	8. V panelu doprava stiskněme tlačítko "Moje osobní údaje".
-	9. Pojďme dolu a v sekci "Doručovací adresy" klikněme na tlačítko "Přidat novou adresu".
-	10. Zadáme "Marcel Orel" v poli "JMÉNO A PŘIJMENÍ".
-	11. Zadáme "Zlínská 1020" v poli "ULICE".
-	12. Zadáme "Zlín" v poli "MĚSTO".
-	13. Zadáme "76314" v poli "PSČ".
-	14. V poli "ZEMĚ" zvolíme "Slovensko".
-	15. Klikněme na tlačítko "Odeslat".
-	16. 	TEST - nová adresa je přidaná.
-	17. V sekci "Doručovací adresy" ve sloupci "Upravit" v řádku nové adresy klikněme na tlačítko "Upravit".	
-	18. Zadáme "Jan Vavřač" v poli "JMÉNO A PŘIJMENÍ".
-	19. Klikněme na tlačítko "Odeslat".
+Test steps ->
+	1. Click the drop-down "PŘIHLÁŠENÍ" button in the top right corner.
+	2. 	TEST - Button "PŘIHLÁŠENÍ" is expanded.
+	3. Enter "mimoli1034@noomlocs.com" in the input field "E-MAIL" in the expanded window of the "PŘIHLÁŠENÍ" button.
+	4. Enter "123456789" in the input field "HESLO" in the expanded window of the "PŘIHLÁŠENÍ" button.
+	5. On the opened window click the button "Přihlásit se".
+	6. 	TEST - sign in is successful.
+	7. Click the "MŮJ ÚČET" button in the top right corner.
+	8. Click the "Moje osobní údaje" button on the right panel.
+	9. Enter value "Marcel Orel" in the input field "JMÉNO A PŘIJMENÍ".
+	11. Enter value "Zlínská 1020" in the input field "ULICE".
+	12. Enter value "Zlín" in the input field "MĚSTO".
+	13. Enter value "76314" in the input field "PSČ".
+	14. In the field "ZEMĚ" choose "Slovensko".
+	15. Click the "Odeslat" button.
+	16. 	TEST - new delivery address was added.
+	17. Click the "Upravit" button in the section "Doručovací adresy" in the column "Upravit" next to the added delivery address.
+	18. Enter value "Jan Vavřač" in the input field "JMÉNO A PŘIJMENÍ".
+	19. Click the "Odeslat" button.
 
-Vstupní data ->
-	1. URL domové stránky "https://www.lokni-shop.cz".
-	2. E-mailova adresa "mimoli1034@noomlocs.com".
-	3. Heslo "123456789".
+Input data ->
+	1. Homepage's URL "https://www.lokni-shop.cz".
+	2. E-mail "mimoli1034@noomlocs.com".
+	3. Password "123456789".
 	4. Text "Marcel Orel".
 	5. Text "Mlynská 8".
 	6. Text "Košice".
 	7. Text "04001".
 	8. Text "Jan Vavřač".
 
-Očekávaný výsledek ->
-	1. Po kliknuti na tlačítko "Odeslat" musí se nám zobrazit označení "Záznam byl v pořádku uložen.".
-	2. Jméno a příjmení upravené adresy musí byt "Jan Vavřač".  
+Expected result ->
+	1. The message "Záznam byl v pořádku uložen." should be displayed.
+	2. First and the last name of the edited address should be "Jan Vavřač".  
 
 Post-conditions ->
-	1. Smažeme nově vytvořenou adresu.
-	2. Zavřeme web.
-	
+	1. Delete the new created addresses.
+	2. Close the website.
 
-Verze TC -> 0.0.0.0.0.0.0.0.1d
+TC version -> 0.0.0.0.0.0.0.0.1d
